@@ -14,8 +14,7 @@ $ npm install -g duba
 
 ### pull
 
-It'll copy (or sync) the project you specified into your local workspace and run `npm install` command
-if it's a NodeJS command.
+It'll copy (or sync) the project you specified into your local workspace:
 
 Example:
 
