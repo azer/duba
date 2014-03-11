@@ -1,0 +1,31 @@
+{
+  "name": "duba",
+  "version": "0.0.0",
+  "description": "Sync your projects from remote machine into local via SSH",
+  "main": "index.js",
+  "bin": {
+    "duba": "./bin/duba.js"
+  },
+  "keywords": [
+    "workspace",
+    "ssh",
+    "sync"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/duba.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "new-command": "0.0.x",
+    "prompt-input": "0.0.x",
+    "checkfor": "0.0.4",
+    "local-debug": "0.0.0",
+    "default-debug": "0.0.0",
+    "expand-home-dir": "0.0.x",
+    "styled": "0.0.1",
+    "remotely": "~1.0.x",
+    "format-text": "0.0.3"
+  }
+}
