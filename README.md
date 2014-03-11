@@ -1,6 +1,6 @@
 ## duba
 
-Duba lets you have a secondary, remote or local workspace. It pulls/pushes projects, runs remote commands via SSH.
+Duba makes it easier to manage remote and local workspaces using SSH. It takes care of pulling and pushing changes, [running remote commands](http://github.com/azer/remotely).
 
 ![](https://i.cloudup.com/P9mTce6rHf.png)
 
