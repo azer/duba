@@ -29,7 +29,7 @@ function run () {
 }
 
 function fixProjectName () {
-  if (command._.length && !duba.run) return;
+  if (command._.length && !command.run) return;
 
   var cwd = process.cwd();
   var localDir = duba.config.read().localDir;
