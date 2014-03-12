@@ -1,6 +1,6 @@
 {
   "name": "duba",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Sync your projects from remote machine into local via SSH",
   "main": "index.js",
   "bin": {
