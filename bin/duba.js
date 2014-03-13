@@ -3,7 +3,10 @@
 require('default-debug')('duba:setup', 'duba:pull', 'duba:push', 'duba:config', 'duba:run');
 
 var newCommand = require("new-command");
-var command = newCommand('pull', 'push', 'run', 'setup');
+var command = newCommand('pull', 'push', 'run', 'setup', {
+  p: 'profile'
+});
+
 var duba = require("../");
 var subcommand;
 

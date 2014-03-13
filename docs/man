@@ -9,3 +9,9 @@
          push     Push specified project into remote workspace. e.g duba push
          run      Run given command in the remote project directory. e.g duba run head package.json
          setup    Setup a new Duba configuration on ~/.duba
+
+      OPTIONS
+
+        -p    --profile     Include ~/.profile before running running the remote command.
+        -v    --version     Show version and exit
+        -h    --help        Show help and exit

@@ -25,7 +25,7 @@
     "default-debug": "0.0.0",
     "expand-home-dir": "0.0.x",
     "styled": "0.0.1",
-    "remotely": "~1.0.x",
+    "remotely": "~1.1",
     "format-text": "0.0.3"
   }
 }
